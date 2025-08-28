@@ -1,5 +1,3 @@
-Here is a professional and comprehensive **README.md** template for your **Jobby App** React project. It incorporates the provided project details, videos, API info, design and usage instructions in a well-structured format suitable for GitHub:
-
 ***
 
 # Jobby App  
