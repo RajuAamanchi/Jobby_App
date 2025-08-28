@@ -1,73 +1,143 @@
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in development mode.  
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload if you make edits.  
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in interactive watch mode.  
-Refer to the [running tests](https://facebook.github.io/create-react-app/docs/running-tests) documentation for more details.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.  
-It correctly bundles React in production mode and optimizes the build for best performance.
-
-The build is minified and the filenames include hashes.  
-Your app is ready to be deployed!
-
-See the [deployment](https://facebook.github.io/create-react-app/docs/deployment) documentation for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you cannot go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc.) into your project so you have full control over them. All commands except `eject` will continue to work, but will point to the copied scripts so you can tweak them as needed.
-
-You don’t have to use `eject`. The curated feature set is suitable for small and medium deployments.
-
-## Learn More
-
-You can learn more about Create React App and React at:
-
-- [Create React App Documentation](https://facebook.github.io/create-react-app/docs/getting-started)
-- [React Documentation](https://reactjs.org/)
-
-Additional useful links:
-
-- [Code Splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-- [Analyzing Bundle Size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-- [Making a Progressive Web App](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-- [Advanced Configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-- [Deployment](https://facebook.github.io/create-react-app/docs/deployment)
-- [Troubleshooting Build Failures](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Here is a professional and comprehensive **README.md** template for your **Jobby App** React project. It incorporates the provided project details, videos, API info, design and usage instructions in a well-structured format suitable for GitHub:
 
 ***
 
-This README is the standard one created with Create React App and provides clear instructions for common project commands and useful links for learning more.
+# Jobby App  
 
-If you want, this can be customized further to add project-specific info such as description, features, and usage instructions. Let me know if you'd like that!
+A robust **Job Search Application** built with React that utilizes API integrations, authentication, routing, and filters to provide users with a seamless job hunting experience.
 
-[1](https://github.com/facebook/create-react-app)
-[2](https://create-react-app.dev/docs/folder-structure/)
-[3](https://github.com/react-navigation/create-react-app-example/blob/master/README.md)
-[4](https://www.reddit.com/r/reactjs/comments/1dwi8p8/i_made_my_own_react_best_practices_readme_on/)
-[5](https://create-react-app.dev/docs/getting-started/)
-[6](https://www.freecodecamp.org/news/how-to-build-a-react-project-with-create-react-app-in-10-steps/)
-[7](https://stackoverflow.com/questions/47351598/why-is-my-create-react-app-showing-readme-md-not-index-html)
-[8](https://create-react-app.dev/docs/custom-templates/)
-[9](https://github.com/facebook/create-react-app)
+***
+
+## Project Overview  
+
+In this project, let's build a **Jobby App** by applying the concepts learned so far. Users can login, view a home page, search and filter jobs, check job details, and navigate smoothly through a protected route structure.
+
+***
+
+## Demo Videos  
+
+<div align="center">  
+  <h4>Success View</h4>  
+  <video style="max-width:80%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12);" loop autoplay controls muted>  
+    <source src="https://assets.ccbp.in/frontend/content/react-js/jobby-app-success-output-v0.mp4" type="video/mp4" />  
+  </video>  
+
+  <h4>Failure View</h4>  
+  <video style="max-width:80%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12);" loop autoplay controls muted>  
+    <source src="https://assets.ccbp.in/frontend/content/react-js/jobby-app-failure-output-v1.mp4" type="video/mp4" />  
+  </video>  
+</div>  
+
+***
+
+## Features  
+
+- **Login & authentication flow** with API validation and error handling  
+- **Protected routes**: Login required to access Home, Jobs, and Job Details pages  
+- **Home page** with user profile and navigation to Jobs page  
+- **Jobs page** with filtering options by employment type, salary range, and search keyword  
+- **Job Details page** showing detailed info and similar jobs  
+- **Error handling and retry** for API fetch failures  
+- **Responsive layout** designed for various screen sizes  
+
+***
+
+## Setup Instructions  
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/jobby-app.git
+cd jobby-app
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+```
+
+App will run at [http://localhost:3000](http://localhost:3000)
+
+***
+
+## Usage  
+
+- Use valid credentials to login:  
+  - Username: `rahul`  
+  - Password: `rahul@2021`  
+- Navigate between Login, Home, Jobs, and Job Details routes  
+- Apply filters on Jobs page and search jobs by title  
+- Click on job cards to view details  
+- Logout to return to Login page  
+
+***
+
+## API Endpoints  
+
+| Functionality          | Method | Endpoint                         | Description                              |
+|-----------------------|--------|---------------------------------|------------------------------------------|
+| Login                 | POST   | https://apis.ccbp.in/login       | Authenticate user and receive JWT token |
+| Profile               | GET    | https://apis.ccbp.in/profile     | Fetch user profile details               |
+| Jobs List             | GET    | https://apis.ccbp.in/jobs        | Fetch list of jobs with filters          |
+| Job Details           | GET    | https://apis.ccbp.in/jobs/:id    | Fetch detailed info for a specific job  |
+
+***
+
+## Component Structure  
+
+- `Login` Route: User login & validation  
+- `Home` Route: User profile, navigation  
+- `Jobs` Route: Job listing with filter/search  
+- `JobItemDetails`: Detailed job info and similar jobs  
+- `Header`: Navigation and logout  
+
+***
+
+## Accessibility & Testing Notes  
+
+- Loader component wrapped in container with `data-testid="loader"`  
+- Search button has `data-testid="searchButton"`  
+- Proper alt attributes on all images, e.g.  
+  - Profile image `alt="profile"`  
+  - Company logos `alt="company logo"`  
+  - Job details logo `alt="job details company logo"`  
+  - Skill icons use respective skill names for `alt`  
+
+***
+
+## Design & UI  
+
+- Responsive design supporting extra small to extra large screens  
+- UI colors include hex codes: `#64748b`, `#4f46e5`, `#f8fafc`, `#272727` and others  
+- Font family used: Roboto  
+- Images and layout inspired by the provided design assets  
+
+***
+
+## License  
+
+This project is created for learning purposes as part of a coding course. It is free to use, modify, and share with attribution.
+
+***
+
+## Author  
+
+👤 [Your Name] — A React developer building modern, user-friendly web apps.
+
+***
+
+Thanks for checking out the Jobby App! 🚀
+
+***
+
+If you want, I can also help create combined README files covering your other projects as portfolio entries. Just ask!
+
+[1](https://gist.github.com/martensonbj/6bf2ec2ed55f5be723415ea73c4557c4)
+[2](https://github.com/evelinsteiger/README-template)
+[3](https://www.reddit.com/r/reactjs/comments/cjimv5/excellent_readme_examples/)
+[4](https://www.makeareadme.com)
+[5](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+[6](https://dev.to/zand/a-comprehensive-and-user-friendly-project-readmemd-template-2ei8)
+[7](https://bulldogjob.com/readme/how-to-write-a-good-readme-for-your-github-project)
+[8](https://gitlab.com/gitlab-org/project-templates/react/blob/master/README.md)
+[9](https://stackoverflow.com/questions/11142547/ideal-readme-file-for-web-applications)
