@@ -110,30 +110,12 @@ App will run at [http://localhost:3000](http://localhost:3000)
 
 ***
 
-## License  
-
-This project is created for learning purposes as part of a coding course. It is free to use, modify, and share with attribution.
-
-***
-
 ## Author  
 
-👤 [Your Name] — A React developer building modern, user-friendly web apps.
+👤 [Raju Aamanchi] — A React developer building modern, user-friendly web apps.
 
 ***
 
 Thanks for checking out the Jobby App! 🚀
 
 ***
-
-If you want, I can also help create combined README files covering your other projects as portfolio entries. Just ask!
-
-[1](https://gist.github.com/martensonbj/6bf2ec2ed55f5be723415ea73c4557c4)
-[2](https://github.com/evelinsteiger/README-template)
-[3](https://www.reddit.com/r/reactjs/comments/cjimv5/excellent_readme_examples/)
-[4](https://www.makeareadme.com)
-[5](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
-[6](https://dev.to/zand/a-comprehensive-and-user-friendly-project-readmemd-template-2ei8)
-[7](https://bulldogjob.com/readme/how-to-write-a-good-readme-for-your-github-project)
-[8](https://gitlab.com/gitlab-org/project-templates/react/blob/master/README.md)
-[9](https://stackoverflow.com/questions/11142547/ideal-readme-file-for-web-applications)
