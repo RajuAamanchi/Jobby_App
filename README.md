@@ -1,5 +1,3 @@
-***
-
 # Jobby App  
 
 A robust **Job Search Application** built with React that utilizes API integrations, authentication, routing, and filters to provide users with a seamless job hunting experience.
