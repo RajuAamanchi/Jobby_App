@@ -14,11 +14,7 @@ In this project, let's build a **Jobby App** by applying the concepts learned so
 
 <div align="center">  
   <h4>Success View</h4>  
-   
-
 https://github.com/user-attachments/assets/af32331f-a2e9-446f-a2fd-32d696d0282f
-
-
 
   <h4>Failure View</h4>  
   
