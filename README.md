@@ -59,8 +59,8 @@ App will run at [http://localhost:3000](http://localhost:3000)
 ## Usage  
 
 - Use valid credentials to login:  
-  - Username: `rahul`  
-  - Password: `rahul@2021`  
+- Username: `rahul`  
+- Password: `rahul@2021`  
 - Navigate between Login, Home, Jobs, and Job Details routes  
 - Apply filters on Jobs page and search jobs by title  
 - Click on job cards to view details  
@@ -86,18 +86,6 @@ App will run at [http://localhost:3000](http://localhost:3000)
 - `Jobs` Route: Job listing with filter/search  
 - `JobItemDetails`: Detailed job info and similar jobs  
 - `Header`: Navigation and logout  
-
-***
-
-## Accessibility & Testing Notes  
-
-- Loader component wrapped in container with `data-testid="loader"`  
-- Search button has `data-testid="searchButton"`  
-- Proper alt attributes on all images, e.g.  
-  - Profile image `alt="profile"`  
-  - Company logos `alt="company logo"`  
-  - Job details logo `alt="job details company logo"`  
-  - Skill icons use respective skill names for `alt`  
 
 ***
 
