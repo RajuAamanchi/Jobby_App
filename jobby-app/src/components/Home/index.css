@@ -1,0 +1,42 @@
+.home-bg-container {
+  min-height: 90vh; /* Adjusted to fill the remaining viewport height after header */
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 150px;
+  padding-left: 50px;
+  margin: 0; /* Remove all margins */
+  box-sizing: border-box;
+  display: flex; /* if you want to center content */
+  flex-direction: column;
+  /* justify-content: center; optional */
+  /* align-items: center; optional */
+}
+
+/* Additional reset for first child in home container if needed */
+.home-bg-container > * {
+  margin: 0;
+  padding: 0;
+}
+.main-heading {
+  color: #ffffff;
+  font-size: 80px;
+}
+.description {
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.find-jobs-button {
+  background-color: #6366f1;
+  color: #f8fafc;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 30px;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  font-weight: bold;
+}

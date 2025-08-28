@@ -1,0 +1,70 @@
+/* Reset default margin and padding */
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-family: Arial, sans-serif;
+}
+
+/* Header container */
+.header-container {
+  height: 10vh; /* fixed height */
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  align-items: center; /* vertically center content */
+  justify-content: space-between;
+  background-color: #2c364c;
+  margin-bottom: 0;
+  box-sizing: border-box;
+  border: none; /* remove any border */
+}
+
+/* Navigation list */
+.routes-container {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 25px;
+  color: #f8fafc;
+  font-weight: 700;
+}
+
+/* Website logo */
+.website-logo {
+  width: 150px;
+  height: 50px;
+  object-fit: contain;
+}
+
+/* Logout button */
+.logout-button {
+  background-color: #6366f1;
+  color: #f8fafc;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 30px;
+  cursor: pointer;
+}
+
+/* Navigation list items */
+.list-item {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Remove margin/padding for headings & paragraphs globally */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}

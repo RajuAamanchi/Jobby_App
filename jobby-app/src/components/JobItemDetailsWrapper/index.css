@@ -1,0 +1,20 @@
+.jobs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.success {
+  background-color: #ffffff;
+}
+.success-heading {
+  color: red;
+}
+.view {
+  color: green;
+}
+.detailed-container {
+  display: flex;
+  flex-direction: column;
+}

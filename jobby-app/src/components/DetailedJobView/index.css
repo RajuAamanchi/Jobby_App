@@ -1,0 +1,75 @@
+.detailed-job-view-container {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  background-color: #2c364c;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  min-height: 70vh;
+  width: 90vw;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.company-details-container {
+  display: flex;
+  gap: 15px;
+}
+.company-logo {
+  width: 50px;
+  height: 50px;
+}
+.rating-icon {
+  color: #fbbf24;
+}
+.rating-container {
+  display: flex;
+  gap: 5px;
+  align-self: flex-end;
+  margin-top: 15px;
+}
+.company-details-container p {
+  font-weight: 700;
+}
+.location-employement-salary-container {
+  display: flex;
+  justify-content: space-between;
+}
+.hr-line {
+  color: #475569;
+}
+.description-heading {
+  margin-bottom: 25px;
+}
+.skill-heading {
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.share-icon {
+  color: #6366f1;
+  margin-left: 15px;
+}
+.desc-vist-container {
+  list-style-type: none;
+  padding: 0%;
+  display: flex;
+  justify-content: space-between;
+}
+.life-at-company-container {
+  display: flex;
+  justify-content: space-between;
+}
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+.skill-list-item {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
