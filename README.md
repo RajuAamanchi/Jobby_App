@@ -14,15 +14,18 @@ In this project, let's build a **Jobby App** by applying the concepts learned so
 
 <div align="center">  
   <h4>Success View</h4>  
-  <video style="max-width:80%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12);" loop autoplay controls muted>  
-    <source src="https://assets.ccbp.in/frontend/content/react-js/jobby-app-success-output-v0.mp4" type="video/mp4" />  
-  </video>  
+   
+
+https://github.com/user-attachments/assets/af32331f-a2e9-446f-a2fd-32d696d0282f
+
+
 
   <h4>Failure View</h4>  
-  <video style="max-width:80%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12);" loop autoplay controls muted>  
-    <source src="https://assets.ccbp.in/frontend/content/react-js/jobby-app-failure-output-v1.mp4" type="video/mp4" />  
-  </video>  
-</div>  
+  
+
+https://github.com/user-attachments/assets/bbfe8b34-19d8-4007-a893-3b7bb7708f7a
+
+
 
 ***
 
