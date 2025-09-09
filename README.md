@@ -24,8 +24,6 @@ https://github.com/user-attachments/assets/bbfe8b34-19d8-4007-a893-3b7bb7708f7a
 
 
 
-***
-
 ## Features  
 
 **Login & authentication flow** with API validation and error handling  
@@ -35,8 +33,6 @@ https://github.com/user-attachments/assets/bbfe8b34-19d8-4007-a893-3b7bb7708f7a
 **Job Details page** showing detailed info and similar jobs  
 **Error handling and retry** for API fetch failures  
 **Responsive layout** designed for various screen sizes  
-
-***
 
 ## Setup Instructions  
 
