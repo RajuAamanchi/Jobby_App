@@ -1,8 +1,4 @@
-Got it — you want **one clean final Markdown file** with everything already left-aligned, including the tables, lists, code blocks, usage, features, setup, and author. No HTML tags, no centered `<div>`, no inline `<h4>`. Just plain Markdown that will render properly on GitHub and is easy to copy-paste.
 
-Here’s your final version:
-
-````markdown
 # Jobby App  
 
 A **Job Search Application** built with React that utilizes API integrations, authentication, routing, and filters to provide users with a smooth job hunting experience.  
