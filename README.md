@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/bbfe8b34-19d8-4007-a893-3b7bb7708f7a
 
 ## Setup Instructions  
 
-bash
+```bash
 # Clone the repo
 git clone https://github.com/your-username/jobby-app.git
 cd jobby-app
