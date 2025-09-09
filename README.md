@@ -28,13 +28,13 @@ https://github.com/user-attachments/assets/bbfe8b34-19d8-4007-a893-3b7bb7708f7a
 
 ## Features  
 
-- **Login & authentication flow** with API validation and error handling  
-- **Protected routes**: Login required to access Home, Jobs, and Job Details pages  
-- **Home page** with user profile and navigation to Jobs page  
-- **Jobs page** with filtering options by employment type, salary range, and search keyword  
-- **Job Details page** showing detailed info and similar jobs  
-- **Error handling and retry** for API fetch failures  
-- **Responsive layout** designed for various screen sizes  
+**Login & authentication flow** with API validation and error handling  
+**Protected routes**: Login required to access Home, Jobs, and Job Details pages  
+**Home page** with user profile and navigation to Jobs page  
+**Jobs page** with filtering options by employment type, salary range, and search keyword  
+**Job Details page** showing detailed info and similar jobs  
+**Error handling and retry** for API fetch failures  
+**Responsive layout** designed for various screen sizes  
 
 ***
 
